@@ -60,7 +60,7 @@ public class Main {
                       }
                       System.out.println("Press the number against the contact to delete it: ");
                       int number = scanner.nextInt();
-                      String temp = listOfContactsObj.getArrayOfFirstName().get(number - 1).toString();
+                      String temp = listOfContactsObj.getListName().get(number - 1).toString();
                       listOfContactsObj.deleteFromContacts(number);
                       System.out.println(temp + "'s contact deleted from list!");
                       break;
